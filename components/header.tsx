@@ -9,7 +9,7 @@ export default function Header () {
                     <h1 className=" text-5xl">My Task Board</h1>
                     <p className=" text-lg font-medium">Tasks to keep organised</p>
                 </div>
-                <Image width="25" height="25" src="/Edit_duotone.svg" alt="Edit Logo" className=" mt-2"></Image>
+                <Image width="25" height="25" src="/edit.svg" alt="Edit Logo" className=" mt-2"></Image>
             </div>
         </header>
     )
