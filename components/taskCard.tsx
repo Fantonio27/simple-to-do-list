@@ -31,7 +31,7 @@ export default function TaskCard ({ task }: Task) {
     const bgColor = colorPalette[status as keyof typeof colorPalette] || "";
 
     return (
-        <div className={`flex justify-between rounded-2xl p-4 ${status? bgColor.light : 'bg-light-gray'}`}>
+        <div className={`flex justify-between rounded-2xl p-4 ${status? bgColor.light : 'bg-light-gray'} shadow-md shadow-slate-300/30`}>
             <div className={`flex gap-7 items-center`}>
                 <Icon icon={icon}/>
                 <section className={`max-w-xl ${description && 'space-y-1'}`}>

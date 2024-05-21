@@ -24,7 +24,7 @@ export default function Home() {
 
 function AddTask(){
   return (
-    <div className="flex gap-7 items-center rounded-2xl p-4 bg-add-light">
+    <div className="flex gap-7 items-center rounded-2xl p-4 bg-add-light shadow-md shadow-slate-300/30">
       <div className="flex justify-center items-center rounded-2xl bg-add-dark size-[54px]">
           <Image width="26" height="26" src="add.svg" alt="Add Icon" />
       </div>
