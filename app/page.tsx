@@ -6,7 +6,7 @@ import Image from "next/image";
 export default function Home() {
  
   return (
-    <main className="w-7/12 m-auto bg-red-300/0 my-16">
+    <main className="w-6/12 m-auto bg-red-300/0 my-16">
       <Header />
 
       <div className=" my-10 space-y-6">
