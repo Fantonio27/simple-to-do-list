@@ -16,7 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={outfit.className}>{children}</body>
+      <body className={`bg-[#F8FAFC] ${outfit.className}`}>{children}</body>
     </html>
   );
 }
