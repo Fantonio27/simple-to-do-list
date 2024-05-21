@@ -17,7 +17,7 @@ const data = [
   {
     icon: "Logo",
     name: "Task To Do",
-    description: "Work on a Challenge on devCallenges.io, learn TypeScript. ascvacasc csacsac csacsccscasc csacs vsacsacsac ascascs csacs",
+    description: "Work on a Challenge on devCallenges.io, learn TypeScript.",
     status: "",
   },
 ];

@@ -34,7 +34,7 @@ export default function TaskCard ({ task }: Task) {
         <div className={`flex justify-between rounded-2xl p-4 ${status? bgColor.light : 'bg-light-gray'}`}>
             <div className={`flex gap-7 items-center`}>
                 <Icon icon={icon}/>
-                <section className={`max-w-xl ${description && 'space-y-3'}`}>
+                <section className={`max-w-xl ${description && 'space-y-1'}`}>
                     <h1 className="font-semibold text-2xl">{name}</h1>
                     <p className="text-lg leading-7">{description}</p>
                 </section>
