@@ -56,7 +56,7 @@ function StatusBar({status, color} : {status: string, color: string}) {
     const style = twMerge("flex justify-center items-center rounded-2xl size-[50px]", color)
     return (
         <div className={style}>
-            <Image width="25" height="25" src={`/${status}.svg`} alt="cacsa" />
+            <Image width="25" height="25" src={`/${status}.svg`} alt={status} />
         </div>
     )
 }
