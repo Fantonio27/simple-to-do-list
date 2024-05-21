@@ -36,7 +36,7 @@ export default function TaskCard ({ task }: Task) {
                 <Icon icon={icon}/>
                 <section className={`max-w-xl ${description && 'space-y-3'}`}>
                     <h1 className="font-semibold text-2xl">{name}</h1>
-                    <p className="text-lg text-black/75 leading-7">{description}</p>
+                    <p className="text-lg leading-7">{description}</p>
                 </section>
             </div>
             {status && <StatusBar status={status} color={bgColor.dark}/>}
