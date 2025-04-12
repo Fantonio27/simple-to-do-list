@@ -47,7 +47,7 @@ export default function TaskCard ({ task }: Task) {
 function Icon ({icon} : {icon: string}) {
     return (
         <div className="flex justify-center items-center rounded-2xl bg-white size-[50px]">
-            <Image width="30" height="30" src={`${icon}.svg`} alt="cacsa" />
+            <Image width="22" height="22" src={`/icons/${icon}.png`} alt={icon} className=" object-contain"/>
         </div>
     )
 }
