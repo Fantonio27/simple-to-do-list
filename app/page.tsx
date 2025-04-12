@@ -1,6 +1,6 @@
 import Header from "@/components/header";
 import TaskCard from "@/components/taskCard";
-import tasks from "@/lib/fake-data"
+import tasks from "@/assets/json/mock-data"
 import Image from "next/image";
 
 export default function Home() {
